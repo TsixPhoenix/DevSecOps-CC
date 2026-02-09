@@ -17,11 +17,11 @@
 #### Deployment Details
 - Run command used: `docker run -d --name juice-shop -p 127.0.0.1:3000:3000 bkimminich/juice-shop:v19.0.0`
 - Access URL: http://127.0.0.1:3000
-- Network exposure: 127.0.0.1 only [x] Yes  [ ] No (explain if No)
+- Network exposure: 127.0.0.1 only [x] Yes  [ ] No
 - Container status: `docker ps` shows `127.0.0.1:3000->3000/tcp` and container is Up
 
 #### Health Check
-- Page load: TODO - add screenshot of home page (example path: `labs/artifacts/juice-shop-home.png`)
+- Page load: added screenshot of home page, lab1c/artifacts/juice-shop-home.jpg
 - API check: `/rest/products` returned "Unexpected path" on v19.0.0.
   - Verified product list via `curl -s http://127.0.0.1:3000/rest/products/search?q=` (first 10 lines):
 ```
@@ -38,10 +38,10 @@
 ```
 
 #### Surface Snapshot (Triage)
-- Login/Registration visible: [ ] Yes  [ ] No - notes: TODO (confirm in UI)
-- Product listing/search present: [ ] Yes  [ ] No - notes: TODO (confirm in UI)
-- Admin or account area discoverable: [ ] Yes  [ ] No - notes: TODO (confirm in UI)
-- Client-side errors in console: [ ] Yes  [ ] No - notes: TODO (confirm in browser console)
+- Login/Registration visible: [x] Yes  [ ] No
+- Product listing/search present: [x] Yes  [ ] No
+- Admin or account area discoverable: [x] Yes  [ ] No
+- Client-side errors in console: [x] Yes  [ ] No
 - Security headers (quick look - optional): `curl -I http://127.0.0.1:3000`
   - Present: `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, `Feature-Policy: payment 'self'`
   - Observed: `Access-Control-Allow-Origin: *`
@@ -56,11 +56,9 @@
 
 ### Creation Process
 - Added `.github/pull_request_template.md` with required sections and checklist.
-- Note: GitHub reads templates from the default branch, so ensure this file is on `main`.
 
-### Verification (TODO)
-- Open a PR from `feature/lab1` and confirm the template auto-fills.
-- Add a screenshot or paste the auto-filled PR description here.
+### Verification
+- added proof-screenshot, lab1c/artifacts/auto-filled-PR.jpg
 
 ### Why Templates Help Collaboration
 PR templates standardize expectations, reduce review back-and-forth, and ensure important checks (tests, docs, artifacts) are not skipped.
@@ -71,9 +69,3 @@ PR templates standardize expectations, reduce review back-and-forth, and ensure 
 
 ## GitHub Community
 Starring repositories signals useful projects to the community and helps maintainers gauge interest, while following developers keeps you informed about relevant work and strengthens collaboration.
-
-### Actions (TODO - complete on GitHub)
-- [ ] Star the course repository
-- [ ] Star https://github.com/simple-container-com/api
-- [ ] Follow @Cre-eD, @marat-biriushev, @pierrepicaud
-- [ ] Follow at least 3 classmates
