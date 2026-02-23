@@ -77,6 +77,7 @@ To show that the hook really blocks commits when secrets are present and allows 
 - [ ] **Blocked commit:**:
   ```
  
+ 
   ```
 - [ ] **Successful commit:**
   ```
