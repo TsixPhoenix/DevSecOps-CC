@@ -76,7 +76,7 @@ To show that the hook really blocks commits when secrets are present and allows 
 
 - [ ] **Blocked commit:**:
   ```
-  /labs/lab3/docs/blocked.png
+  /labs/lab3/docs/
   ```
 - [ ] **Successful commit:**
   ```
