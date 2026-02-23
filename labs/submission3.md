@@ -76,12 +76,13 @@ To show that the hook really blocks commits when secrets are present and allows 
 
 - [ ] **Blocked commit:**:
   ```
- 
- 
+COMMIT BLOCKED: Secrets detected in non-excluded files.
+Fix or unstage the offending files and try again.
   ```
 - [ ] **Successful commit:**
   ```
-
+No secrets detected in non-excluded files; proceeding with commit.
+[feature/lab3 0be1b62] docs: lab3 submission update
   ```
 
 ### 2.3 How Automated Secret Scanning Helps
