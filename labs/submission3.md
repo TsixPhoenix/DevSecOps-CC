@@ -76,11 +76,11 @@ To show that the hook really blocks commits when secrets are present and allows 
 
 - [ ] **Blocked commit:**:
   ```
-  /labs/lab3/docs/
+ 
   ```
 - [ ] **Successful commit:**
   ```
-  /labs/lab3/docs/successful.png
+
   ```
 
 ### 2.3 How Automated Secret Scanning Helps
