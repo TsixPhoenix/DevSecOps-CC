@@ -1,0 +1,73 @@
+Unable to find image 'snyk/snyk:docker' locally
+docker: Pulling from snyk/snyk
+d3f1c7a58cda: Pulling fs layer
+8c2ac3795c88: Pulling fs layer
+a4a294ee3d24: Pulling fs layer
+04a9731c772a: Pulling fs layer
+89e9c4ffbcbf: Pulling fs layer
+9df03e33ed49: Pulling fs layer
+8b4da28e0bc4: Pulling fs layer
+92fbd819f55b: Pulling fs layer
+10b0971f0fb9: Pulling fs layer
+503f0e2071dd: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+bcdcbaa55207: Pulling fs layer
+31bd52174687: Pulling fs layer
+3c7272d6ff8e: Pulling fs layer
+522c475d8be2: Pulling fs layer
+39e2f9824ecd: Pulling fs layer
+a524d6d9cccd: Pulling fs layer
+34962ed90623: Pulling fs layer
+12f8c3243c30: Pulling fs layer
+7ba58ca1e42e: Pulling fs layer
+4f4fb700ef54: Already exists
+8b4da28e0bc4: Download complete
+a4a294ee3d24: Download complete
+9df03e33ed49: Download complete
+bcdcbaa55207: Download complete
+04a9731c772a: Download complete
+7ba58ca1e42e: Download complete
+3c7272d6ff8e: Download complete
+a524d6d9cccd: Download complete
+8c2ac3795c88: Download complete
+31bd52174687: Download complete
+d3f1c7a58cda: Download complete
+522c475d8be2: Download complete
+7ba58ca1e42e: Pull complete
+d3f1c7a58cda: Pull complete
+4f4fb700ef54: Pull complete
+39e2f9824ecd: Download complete
+92fbd819f55b: Download complete
+34962ed90623: Download complete
+12f8c3243c30: Download complete
+12f8c3243c30: Pull complete
+89e9c4ffbcbf: Download complete
+10b0971f0fb9: Download complete
+89e9c4ffbcbf: Pull complete
+34962ed90623: Pull complete
+503f0e2071dd: Download complete
+04a9731c772a: Pull complete
+a4a294ee3d24: Pull complete
+9df03e33ed49: Pull complete
+92fbd819f55b: Pull complete
+8b4da28e0bc4: Pull complete
+a524d6d9cccd: Pull complete
+503f0e2071dd: Pull complete
+bcdcbaa55207: Pull complete
+31bd52174687: Pull complete
+3c7272d6ff8e: Pull complete
+8c2ac3795c88: Pull complete
+39e2f9824ecd: Pull complete
+522c475d8be2: Pull complete
+10b0971f0fb9: Pull complete
+Digest: sha256:a376a6288acda576a72673f0aa1a5fa571821af39affbb755a5d4eb3afc066c1
+Status: Downloaded newer image for snyk/snyk:docker
+
+ ERROR   Authentication error (SNYK-0005)
+                                                                                
+           Authentication failed. Please check the API token on https://snyk.io 
+
+Status:  401 Unauthorized 
+Docs:    https://docs.snyk.io/scan-with-snyk/error-catalog#snyk-0005 
+                                                                     
+ID:      urn:snyk:interaction:a397338b-d2bb-4cd7-be8c-7caf08111c22 
